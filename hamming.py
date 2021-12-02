@@ -25,7 +25,6 @@ def hamming_decode(j, num):
 
     return np.dot(j, H.T) % 2
 
-
 def main():
     G=np.matrix([[1,0,0,0,0,1,1],\
                 [0,1,0,0,1,0,1],\
